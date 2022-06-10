@@ -15,12 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import { DetailsKilometerstandComponent } from './details-kilometerstand.component';
-import { DetailsErstzulassungComponent } from './details-erstzulassung.component';
-import { DetailsStammdatenComponent } from './details-stammdaten.component';
-import { DetailsKennzeichenComponent } from './details-kennzeichen.component';
-import { DetailsFahrzeugtypComponent } from './details-fahrzeugtyp.component';
 import { DetailsBeschreibungComponent } from './details-beschreibung.component';
+import { DetailsErstzulassungComponent } from './details-erstzulassung.component';
+import { DetailsFahrzeugtypComponent } from './details-fahrzeugtyp.component';
+import { DetailsKennzeichenComponent } from './details-kennzeichen.component';
+import { DetailsKilometerstandComponent } from './details-kilometerstand.component';
+import { DetailsStammdatenComponent } from './details-stammdaten.component';
 import { NgModule } from '@angular/core';
 import { SharedModule } from '../../../shared/shared.module';
 
@@ -28,10 +28,10 @@ import { SharedModule } from '../../../shared/shared.module';
     imports: [SharedModule],
     declarations: [
         DetailsBeschreibungComponent,
-        DetailsKilometerstandComponent,
         DetailsErstzulassungComponent,
-        DetailsKennzeichenComponent,
         DetailsFahrzeugtypComponent,
+        DetailsKennzeichenComponent,
+        DetailsKilometerstandComponent,
         DetailsStammdatenComponent,
     ],
     exports: [DetailsStammdatenComponent],
