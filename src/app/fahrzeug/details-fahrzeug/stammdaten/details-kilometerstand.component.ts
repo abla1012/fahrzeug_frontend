@@ -27,7 +27,7 @@ import log from 'loglevel';
 })
 export class DetailsKilometerstandComponent implements OnInit {
     @Input()
-    kilometerstand!: string;
+    kilometerstand!: number;
 
     ngOnInit() {
         log.debug(

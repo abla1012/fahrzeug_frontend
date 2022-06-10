@@ -27,7 +27,7 @@ import { Title } from '@angular/platform-browser'; // eslint-disable-line @types
 import log from 'loglevel';
 
 /**
- * Komponente f&uuml;r das Tag <code>hs-details-buch</code>
+ * Komponente f&uuml;r das Tag <code>hs-details-fahrzeug</code>
  */
 @Component({
     selector: 'hs-details-fahrzeug',

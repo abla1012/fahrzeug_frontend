@@ -5,7 +5,7 @@ import { FahrzeugModule } from './fahrzeug.module';
 import { NgModule } from '@angular/core';
 import { SucheFahrzeugeComponent } from './suche-fahrzeug/suche-fahrzeuge.component';
 
-// Route-Definitionen fuer das Feature-Modul "buch":
+// Route-Definitionen fuer das Feature-Modul "fahrzeug":
 // Zuordnung von Pfaden und Komponenten mit HTML-Templates
 const routes: Routes = [
     {
