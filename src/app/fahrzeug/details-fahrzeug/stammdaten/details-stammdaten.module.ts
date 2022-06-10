@@ -17,6 +17,7 @@
 
 import { DetailsBeschreibungComponent } from './details-beschreibung.component';
 import { DetailsErstzulassungComponent } from './details-erstzulassung.component';
+import { DetailsFahrzeughalterComponent } from './details-fahrzeughalter.component';
 import { DetailsFahrzeugtypComponent } from './details-fahrzeugtyp.component';
 import { DetailsKennzeichenComponent } from './details-kennzeichen.component';
 import { DetailsKilometerstandComponent } from './details-kilometerstand.component';
@@ -29,6 +30,7 @@ import { SharedModule } from '../../../shared/shared.module';
     declarations: [
         DetailsBeschreibungComponent,
         DetailsErstzulassungComponent,
+        DetailsFahrzeughalterComponent,
         DetailsFahrzeugtypComponent,
         DetailsKennzeichenComponent,
         DetailsKilometerstandComponent,
